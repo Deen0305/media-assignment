@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button{
+  cursor: pointer;
+}
+
+.container {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: ceter;
+  height: 100vh;
+  font-family: poppins;
+}
+
+
+.box-1, .box-2, .box-3{
+  border: 1px solid ghostwhite;
+  border-radius: 4px;
+  height: 365px;
+  width: 22%;
+  box-shadow: 5px 5px 5px 5px gainsboro;
+  background-color: white;
+}
+h3{
+  padding-left: 10px;
+}
+
+#exp-1, #exp-2, #exp-3{
+  font-size: 0.8em;
+  padding-left: 10px;
+  color: blue;
+}
+
+#text-1{
+  font-size: 0.8em;
+  white-space: pre-line;
+  color: #786a6a;
+}
+
+.label, .label-1, .label-2                {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 190px;
+  height: 35px;
+  border: 1px solid ghostwhite;
+  border-radius: 5px;
+  background-color:  rgb(24 7 249 / 26%);
+  margin-top: 20px;
+}
+.box-text{
+  position: relative;
+  left: 40px;
+  top: 18px;
+}
+
+/******media  query *******/
+@media screen and (max-width: 1024px) {
+  
+}
+@media screen and (max-width: 900) {
+  .box-1, .box-2, .box-3{
+    width: 30%;
+  }
+}
